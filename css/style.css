@@ -54,6 +54,13 @@ img {
     position: fixed;
     left: 0;
     top: 0;
+    transition: 0.2s linear;
+    padding-bottom: 20px;
+    z-index: 10;
+}
+
+.header_active {
+    background: #0E1D28;
 }
 
 .wrapper {
@@ -514,3 +521,16 @@ places {
 }
 
 /* top places end */
+
+/* videos start */
+
+.videos {
+    width: 100%;
+}
+
+.videos__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* videos end */
