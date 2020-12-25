@@ -31,7 +31,15 @@
     )
 
     if(window.innerWidth < 768) {
-
+        let i = 0
+        for (i; i < menuLinks.length; i++) {
+            menuLinks[i].addEventListener(
+                'click',
+                () => {
+                    menu.classList.remove('header__nav_active')
+                }
+            )
+        }
     }
 
 }());
